@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/b"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360"
+    android:layout_height="640">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="314dp"
+        android:layout_height="39dp"
+        android:background="#7B8183"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="68dp"
+        android:layout_height="23dp"
+        android:text="Password"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:text="LOGIN"
+        android:textColor="#121111"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="314dp"
+        android:layout_height="39dp"
+        android:background="#7B8183"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
+        android:text="Email"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_vector__2_"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="330"
+        android:layout_height="45"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="#FF5722"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When you agree to terms and conditions"
+        android:textColor="#191818"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="260"
+        android:layout_height="20"
+        android:text="For got your password?"
+        android:textColor="#365E7E"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="96dp"
+        android:layout_height="16dp"
+        android:text="Or login with"
+        android:textColor="#1B1717"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
